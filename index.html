@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chat</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+</head>
+
+<body>
+
+<div class="h1anim">
+<h1 id="title">Welcome to the chat, </h1>
+</div>
+
+  <div id="history"></div>
+  <form id="chat">
+    <input type="text" id="msg_text" name="msg_text" />
+    <!-- <input type="submit" value="Send!" /> -->
+    <button type="submit" class="btn btn-outline-light">Send</button>
+  </form>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
